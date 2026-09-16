@@ -1,0 +1,46 @@
+{ "week" : 2 ,
+  "questions" : [
+    {
+      "question" : 1,
+      "java_file": "Question_1_Print_List_Of_Numbers",
+      "test_files": ["week_2.Question_1_PrintListOfNumbers_Test"],
+      "points": 1
+    },
+    {
+      "question" : 2,
+      "java_file": "Question_2_Tip_Amount_Calculator",
+      "test_files": ["week_2.Question_2_Tip_Amount_Calculator_Test"],
+      "points": 3
+    },
+    {
+      "question" : 3,
+      "java_file": "Question_3_While_Input_Validation",
+      "test_files": ["week_2.Question_3_While_Input_Validation_Test"],
+      "points": 3
+    },
+    {
+      "question" : 4,
+      "java_file": "Question_4_Many_Copy_String",
+      "test_files": ["week_2.Question_4_Many_Copy_String_Test"],
+      "points": 2.5
+    },
+    {
+      "question" : 5,
+      "java_file": "Question_5_Filter_Array",
+      "test_files": ["week_2.Question_5_Filter_Array_Test"],
+      "points": 2.5
+    },
+    {
+      "question" : 6,
+      "java_file": "Question_6_Clean_And_Graph_Array",
+      "test_files": ["week_2.Question_6_Clean_And_Graph_Array_Test"],
+      "points": 4
+    },
+    {
+      "question" : 7,
+      "java_file": "Question_7_Average_Utility_Bill",
+      "test_files": ["week_2.Question_7_Average_Utility_Bill_Test"],
+      "points": 4
+    }
+  ]
+}
