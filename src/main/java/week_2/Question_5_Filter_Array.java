@@ -50,6 +50,11 @@ public class Question_5_Filter_Array {
         *
         * Don't print anything else.
         * */
+       for(int i = 0; i < filenames.length; i++){
+        if(filenames[i].endsWith(".py") || filenames[i].endsWith(".java") || filenames[i].endsWith(".cs") ){
+            System.out.println(filenames[i]);
+        }
+       }
         
         
     }

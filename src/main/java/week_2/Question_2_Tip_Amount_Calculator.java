@@ -58,6 +58,20 @@ public class Question_2_Tip_Amount_Calculator {
         * */
         
         // TODO write your loop here.
+        double tip;
+        double newCheck;
+        String tipFormatted;
+        String checkFormatted; 
+    
+        for (int i = 10; i <= 30; i += 5){
+            tip = check * (i / 100.0);
+            newCheck = tip + check;
+            tipFormatted = String.format("%.2f", tip);
+            checkFormatted = String.format("%.2f", newCheck);
+
+
+            System.out.println(i + "% tip $" + tipFormatted + " total $" + checkFormatted);
+        }
         
     }
 

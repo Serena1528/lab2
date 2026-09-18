@@ -43,8 +43,11 @@ public class Question_4_Many_Copy_String {
         // Hint: Start with an empty string, then add userString to the end of that string, as many times as you need.
 
         // TODO delete this line and replace this with your code
-        return null;
-        
+        String multipleString = "";
+        for(int i = 0; i < repeats; i++){
+            multipleString += userString;
+        }
+        return multipleString;
     }
     
 }

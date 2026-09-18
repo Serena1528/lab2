@@ -54,6 +54,9 @@ public class Question_1_Print_List_Of_Numbers {
         
 
         // TODO write your code here.
+        for (int i = from; i <= to; i++){
+            System.out.println(i);
+        }
  
     }
 
