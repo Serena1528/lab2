@@ -61,8 +61,12 @@ public class Question_7_Average_Utility_Bill {
         //  So for example, when monthNames only has 3 months in it, then create a bill amounts array for 3 bills.
         //  Or if monthNames has 15 months in it, then create a bill amounts array for 15 bills.
         //  Remember that you can find out the length of an array, and use that length to set the size of another array.
+        double[] values = new double[monthNames.length];
+        for(int i = 0; i < monthNames.length; i++){
+            values[i] = doubleInput("Enter bill amount: ");
+        }
 
-        return null;  // TODO replace with your code
+        return values;  // TODO replace with your code
 
     }
 
@@ -71,8 +75,14 @@ public class Question_7_Average_Utility_Bill {
 
         //TODO Calculate the average value of all the bills, and return this number.
         //  make sure this method works with any length array.
+        double average = 0.0;
+        for(int i = 0; i < bills.length; i++){
+            average += bills[i];
+        }
+        average = average / bills.length;
+        String formattedAvrg = String.format("%.2f", average);
         
-        return 0;  // TODO replace with your code
+        return average;  // TODO replace with your code
     }
 
 
@@ -92,6 +102,9 @@ public class Question_7_Average_Utility_Bill {
         System.out.println(String.format("| %-15s| %-15.2f|", "January", 44.5995 ));
         
         */
+        for(int i = 0; i < months.length; i++){
+            System.out.println(String.format("| %-15s| %-15s|", months[i], bills[i]));
+        }
 
     }
 

@@ -46,6 +46,11 @@ public class Question_6_Clean_And_Graph_Array {
         // The speeds parameter variable in this method is just another name for speedsRecorded in the main method.
         // So you don't actually need to return anything for main to know that you have modified the array.
         // This doesn't work with int or String values, so there will be many times where you will need to return a value.
+        for(int i = 0; i< speeds.length; i++){
+            if(speeds[i] == 2147483647){
+                speeds[i] = 0;
+            }
+        }
     
     }
     
@@ -75,9 +80,15 @@ public class Question_6_Clean_And_Graph_Array {
         
         Make sure this method works with any length array.
         */
+        String star = "";
+        for(int i = 0; i< speeds.length; i++){
+            for(int j = 0; j<speeds[i]; j++){
+                star += "*";
+            }
+            star +="\n";
+        }
+        System.out.print(star);
 
-
-        
     }
 
 }
